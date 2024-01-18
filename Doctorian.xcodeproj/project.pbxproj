@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6847EC92B52971000DC953E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6847EC82B52971000DC953E /* AppDelegate.swift */; };
+		A6847ECB2B52971000DC953E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6847ECA2B52971000DC953E /* SceneDelegate.swift */; };
+		A6847ED22B52971100DC953E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6847ED12B52971100DC953E /* Assets.xcassets */; };
+		A6847ED52B52971100DC953E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6847ED32B52971100DC953E /* LaunchScreen.storyboard */; };
+		A6847EDF2B52980800DC953E /* DoctorHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6847EDD2B52980800DC953E /* DoctorHomeViewController.swift */; };
+		A6847EE02B52980800DC953E /* DoctorHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6847EDE2B52980800DC953E /* DoctorHomeViewController.xib */; };
+		A6847EE42B529A9000DC953E /* DoctorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6847EE22B529A8F00DC953E /* DoctorTableViewCell.swift */; };
+		A6847EE52B529A9000DC953E /* DoctorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6847EE32B529A8F00DC953E /* DoctorTableViewCell.xib */; };
+		A6847EE92B529AC300DC953E /* DoctorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6847EE72B529AC300DC953E /* DoctorCollectionViewCell.swift */; };
+		A6847EEA2B529AC300DC953E /* DoctorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6847EE82B529AC300DC953E /* DoctorCollectionViewCell.xib */; };
+		A6847EEF2B52ACB000DC953E /* DoctorTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6847EEE2B52ACB000DC953E /* DoctorTableModel.swift */; };
+		A6847EF12B52ACC000DC953E /* DoctorCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6847EF02B52ACC000DC953E /* DoctorCollectionModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6847EC52B52971000DC953E /* Doctorian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doctorian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6847EC82B52971000DC953E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6847ECA2B52971000DC953E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6847ED12B52971100DC953E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6847ED42B52971100DC953E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6847ED62B52971100DC953E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6847EDD2B52980800DC953E /* DoctorHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorHomeViewController.swift; sourceTree = "<group>"; };
+		A6847EDE2B52980800DC953E /* DoctorHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorHomeViewController.xib; sourceTree = "<group>"; };
+		A6847EE22B529A8F00DC953E /* DoctorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTableViewCell.swift; sourceTree = "<group>"; };
+		A6847EE32B529A8F00DC953E /* DoctorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorTableViewCell.xib; sourceTree = "<group>"; };
+		A6847EE72B529AC300DC953E /* DoctorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCollectionViewCell.swift; sourceTree = "<group>"; };
+		A6847EE82B529AC300DC953E /* DoctorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorCollectionViewCell.xib; sourceTree = "<group>"; };
+		A6847EEE2B52ACB000DC953E /* DoctorTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTableModel.swift; sourceTree = "<group>"; };
+		A6847EF02B52ACC000DC953E /* DoctorCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCollectionModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6847EC22B52971000DC953E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6847EBC2B52971000DC953E = {
+			isa = PBXGroup;
+			children = (
+				A6847EC72B52971000DC953E /* Doctorian */,
+				A6847EC62B52971000DC953E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6847EC62B52971000DC953E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6847EC52B52971000DC953E /* Doctorian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6847EC72B52971000DC953E /* Doctorian */ = {
+			isa = PBXGroup;
+			children = (
+				A6847EDC2B52974A00DC953E /* DoctorianAllFiles */,
+				A6847EC82B52971000DC953E /* AppDelegate.swift */,
+				A6847ECA2B52971000DC953E /* SceneDelegate.swift */,
+				A6847ED12B52971100DC953E /* Assets.xcassets */,
+				A6847ED32B52971100DC953E /* LaunchScreen.storyboard */,
+				A6847ED62B52971100DC953E /* Info.plist */,
+			);
+			path = Doctorian;
+			sourceTree = "<group>";
+		};
+		A6847EDC2B52974A00DC953E /* DoctorianAllFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A6847EEB2B52AC6E00DC953E /* DoctorModel */,
+				A6847EE62B529AA000DC953E /* DoctorCollectionCell */,
+				A6847EE12B529A5000DC953E /* DoctorTableCell */,
+				A6847EDD2B52980800DC953E /* DoctorHomeViewController.swift */,
+				A6847EDE2B52980800DC953E /* DoctorHomeViewController.xib */,
+			);
+			path = DoctorianAllFiles;
+			sourceTree = "<group>";
+		};
+		A6847EE12B529A5000DC953E /* DoctorTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				A6847EE22B529A8F00DC953E /* DoctorTableViewCell.swift */,
+				A6847EE32B529A8F00DC953E /* DoctorTableViewCell.xib */,
+			);
+			path = DoctorTableCell;
+			sourceTree = "<group>";
+		};
+		A6847EE62B529AA000DC953E /* DoctorCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				A6847EE72B529AC300DC953E /* DoctorCollectionViewCell.swift */,
+				A6847EE82B529AC300DC953E /* DoctorCollectionViewCell.xib */,
+			);
+			path = DoctorCollectionCell;
+			sourceTree = "<group>";
+		};
+		A6847EEB2B52AC6E00DC953E /* DoctorModel */ = {
+			isa = PBXGroup;
+			children = (
+				A6847EEE2B52ACB000DC953E /* DoctorTableModel.swift */,
+				A6847EF02B52ACC000DC953E /* DoctorCollectionModel.swift */,
+			);
+			path = DoctorModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6847EC42B52971000DC953E /* Doctorian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6847ED92B52971100DC953E /* Build configuration list for PBXNativeTarget "Doctorian" */;
+			buildPhases = (
+				A6847EC12B52971000DC953E /* Sources */,
+				A6847EC22B52971000DC953E /* Frameworks */,
+				A6847EC32B52971000DC953E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doctorian;
+			productName = Doctorian;
+			productReference = A6847EC52B52971000DC953E /* Doctorian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6847EBD2B52971000DC953E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A6847EC42B52971000DC953E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = A6847EC02B52971000DC953E /* Build configuration list for PBXProject "Doctorian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6847EBC2B52971000DC953E;
+			productRefGroup = A6847EC62B52971000DC953E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6847EC42B52971000DC953E /* Doctorian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6847EC32B52971000DC953E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6847ED52B52971100DC953E /* LaunchScreen.storyboard in Resources */,
+				A6847ED22B52971100DC953E /* Assets.xcassets in Resources */,
+				A6847EEA2B529AC300DC953E /* DoctorCollectionViewCell.xib in Resources */,
+				A6847EE52B529A9000DC953E /* DoctorTableViewCell.xib in Resources */,
+				A6847EE02B52980800DC953E /* DoctorHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6847EC12B52971000DC953E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6847EC92B52971000DC953E /* AppDelegate.swift in Sources */,
+				A6847EF12B52ACC000DC953E /* DoctorCollectionModel.swift in Sources */,
+				A6847EEF2B52ACB000DC953E /* DoctorTableModel.swift in Sources */,
+				A6847EDF2B52980800DC953E /* DoctorHomeViewController.swift in Sources */,
+				A6847EE92B529AC300DC953E /* DoctorCollectionViewCell.swift in Sources */,
+				A6847EE42B529A9000DC953E /* DoctorTableViewCell.swift in Sources */,
+				A6847ECB2B52971000DC953E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6847ED32B52971100DC953E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6847ED42B52971100DC953E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6847ED72B52971100DC953E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6847ED82B52971100DC953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6847EDA2B52971100DC953E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2P8F2N2L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Doctorian/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.Doctorian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6847EDB2B52971100DC953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2P8F2N2L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Doctorian/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.Doctorian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6847EC02B52971000DC953E /* Build configuration list for PBXProject "Doctorian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6847ED72B52971100DC953E /* Debug */,
+				A6847ED82B52971100DC953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6847ED92B52971100DC953E /* Build configuration list for PBXNativeTarget "Doctorian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6847EDA2B52971100DC953E /* Debug */,
+				A6847EDB2B52971100DC953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6847EBD2B52971000DC953E /* Project object */;
+}
